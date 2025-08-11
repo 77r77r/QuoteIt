@@ -11,20 +11,24 @@ public class Quote {
         this.content = content;
     }
 
-    public int getID() {
+    public int getId() {
         return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getAuthor() {
         return author;
     }
 
-    public String getContent() {
-        return content;
-    }
-
     public void setAuthor(String author) {
         this.author = author;
+    }
+
+    public String getContent() {
+        return content;
     }
 
     public void setContent(String content) {
