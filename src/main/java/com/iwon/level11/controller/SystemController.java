@@ -1,8 +1,8 @@
-package com.iwon.quote.controller;
+package com.iwon.level11.controller;
 
 public class SystemController {
 
     public void exit() {
-        System.out.println("명령 앱 종료");
+        System.out.println("명언 앱 종료");
     }
 }
